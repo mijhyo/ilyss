@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HEART</title>
+	<style>
+	body {
+		background-color: #63cbd6;
+	}
+
+	.heart {
+	width: 180px;
+	height: 200px;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.top {
+	height: 50px;
+	display: inline-flex;
+	flex-direction: row;
+	margin: 0;
+}
+.top-left {
+	height: 90px;
+	width: 95px;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 49px;
+	background-color: #f25c73;
+	margin: 0;
+	position: absolute;
+	top: 14px;
+	left: 1px;
+}
+.top-right {
+	height: 90px;
+	width: 95px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 45px;
+	border-bottom-right-radius: 49px;
+	background-color: #f25c73;
+	margin: 0;
+	position: absolute;
+	top: 14px;
+	left: 84px;
+}
+
+.bottom {
+	margin: auto;
+	height: 0;
+	bottom: 0;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	border-top: 105px solid #f25c73;
+	border-bottom: 500px;
+	border-collapse: collapse;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+h2 {
+	position: absolute;
+	margin: 73px 42px;
+}
+
+	</style>
+</head>
+<body>
+	<div class="heart">
+		<div class="top">
+			<div class="top-left"></div>
+			<div class="top-right"></div>
+		</div>
+		<div class="bottom"></div>
+		<h2>STACEY</h2>
+	</div>
+</body>
+</html>
